@@ -21,4 +21,11 @@ const AddToList = () => {
           onChange={(event) => setItem(event.target.value)}
         />
       </label>
-      <button type="submit
+      <button type="submit">
+    Add to List
+  </button>
+</form>
+);
+};
+
+export default AddToList;
